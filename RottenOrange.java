@@ -1,5 +1,6 @@
 package StackQueue;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -32,10 +33,13 @@ public class RottenOrange {
                 }
             }
         }
+//        F:\xmpp\mysql\bin>mysql -u root -p
 
         if(count_fresh == 0){
             return 0;
         }
+
+//        ArrayList<Integer> lst = new ArrayList<>()
 
         int countMin = 0, cnt = 0;
         int [] dx = {0, 0, 1, -1};
